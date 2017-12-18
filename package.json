@@ -1,0 +1,32 @@
+{
+  "name": "deep-scan",
+  "version": "1.0.0",
+  "description": "Scan a folder and its subfolder, raise a callback each time it matches a file",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha ./tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aluzed/node-deep-scan.git"
+  },
+  "keywords": [
+    "node",
+    "scan",
+    "fs",
+    "walk"
+  ],
+  "author": "Alexandre PENOMBRE <aluzed@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aluzed/node-deep-scan/issues"
+  },
+  "homepage": "https://github.com/aluzed/node-deep-scan#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
