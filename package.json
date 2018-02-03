@@ -1,6 +1,6 @@
 {
   "name": "deep-scan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scan a folder and its subfolder, raise a callback each time it matches a file",
   "main": "index.js",
   "directories": {

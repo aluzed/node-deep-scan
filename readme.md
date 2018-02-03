@@ -16,7 +16,7 @@ npm i -S deep-scan
 |-----------|:----------------|:--------------------------------------------------------------------------------|
 | Fullpath  | String          | Path of the main directory to scan                                              |
 | Callback  | Function        | (_ABSOLUTE_FILE_PATH) => { ... }                                                |
-| Filter    | Array of String | String regexp like : '^m\\.js$'                                                 |
+| Filter    | Array of String | String regexp like : '^m(.+)\\.js$' (any js file that start with m)             |
 | Mode      | String          | 'IGNORE' (default) or 'ONLY'. Note that 'ONLY' works only if the path is a file |
 | Limit     | Number          | Max directory depth                                                             |
 
