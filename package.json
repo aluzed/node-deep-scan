@@ -26,7 +26,10 @@
   },
   "homepage": "https://github.com/aluzed/node-deep-scan#readme",
   "devDependencies": {
-    "chai": "^4.1.2",
-    "mocha": "^4.0.1"
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5"
   }
 }
